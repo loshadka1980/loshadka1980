@@ -10,7 +10,7 @@ reference points by hand.
 - Detects the course on a photo of a paper map: start, controls, finish,
   connecting lines, printed control numbers and the visiting order.
   Works for "standard" sprint and forest orienteering maps, and for a variety rogaine / score-o maps
-- Aligns a GPX track to the detected course (track -> pixel). Handle both ordered and unordered controls.
+- Aligns a GPX track to the detected course (track -> pixel). Handle both ordered and unordered courses, various real-life .
 
 ## Try it
 
@@ -20,7 +20,7 @@ reference points by hand.
   send the map as a file and the `.gpx` track, and get the overlay back.
   No sign-up.
 
-This is a test deployment and still being improved.
+  This is a test deployment and still being improved. Feedback welcome.
 
 ## In progress
 
