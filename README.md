@@ -1,8 +1,6 @@
 # Orienteering Course Detection & GPX Alignment
 
-Take a phone photo of your orienteering map, add the GPX track from your
-watch, and get your route drawn on the map. The course is detected
-automatically, and the track is placed on the photo without marking
+Take a phone photo of the orienteering map, add the GPX track, and get your route drawn on the map without marking
 reference points by hand.
 
 ![Orienteering map photo with the detected controls in cyan and the GPX track in magenta](https://modelusage-test.s3.eu-north-1.amazonaws.com/og_image.jpg)
@@ -11,9 +9,8 @@ reference points by hand.
 
 - Detects the course on a photo of a paper map: start, controls, finish,
   connecting lines, printed control numbers and the visiting order.
-- Aligns a GPX track to the detected course, in the photo's own pixels.
-- Works for sprint and forest orienteering maps, and for rogaine / score
-  events where controls are visited in any order.
+  Works for "standard" sprint and forest orienteering maps, and for a variety rogaine / score-o maps
+- Aligns a GPX track to the detected course (track -> pixel). Handle both ordered and unordered controls.
 
 ## Try it
 
@@ -24,6 +21,10 @@ reference points by hand.
   No sign-up.
 
 This is a test deployment and still being improved.
+
+## In progress
+
+- Handling paper deformation (folds)
 
 ## Contact
 
