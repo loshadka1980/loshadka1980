@@ -1,16 +1,30 @@
-## Hi there 👋
+# Orienteering Course Detection & GPX Alignment
 
-<!--
-**loshadka1980/loshadka1980** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Take a phone photo of your orienteering map, add the GPX track from your
+watch, and get your route drawn on the map. The course is detected
+automatically, and the track is placed on the photo without marking
+reference points by hand.
 
-Here are some ideas to get you started:
+![Orienteering map photo with the detected controls in cyan and the GPX track in magenta](https://modelusage-test.s3.eu-north-1.amazonaws.com/og_image.jpg)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## What it does
+
+- Detects the course on a photo of a paper map: start, controls, finish,
+  connecting lines, printed control numbers and the visiting order.
+- Aligns a GPX track to the detected course, in the photo's own pixels.
+- Works for sprint and forest orienteering maps, and for rogaine / score
+  events where controls are visited in any order.
+
+## Try it
+
+- **Web app:** https://modelusage-test.s3.eu-north-1.amazonaws.com/index.html
+  (free account needed)
+- **Telegram bot:** [@otrack_overlay_bot](https://t.me/otrack_overlay_bot):
+  send the map as a file and the `.gpx` track, and get the overlay back.
+  No sign-up.
+
+This is a test deployment and still being improved.
+
+## Contact
+
+rroschin (at) gmail (dot) com
